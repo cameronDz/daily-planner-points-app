@@ -1,0 +1,32 @@
+.Table-col-day-header {
+    width: 48px;
+}
+
+.Table-col-input {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.points-display-name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+.points-display-value {
+    font-size: 10px;
+    margin: 0 8px;
+}
+
+.Weekly-tasks-header {
+    margin-bottom: 0;
+}
+
+.Weekly-tasks-wrapper {
+    display: flex;
+}
+
+.Table-grey-row {
+    background-color: lightgray;
+}
