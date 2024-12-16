@@ -21,6 +21,11 @@
     margin-left: 44px;
 }
 
+.FormDailyTasksCount,
+.FormWeeklyTasksCount {
+    font-size: 10px;
+}
+
 .InvalidFormInput {
     border: 4px red solid;
 }

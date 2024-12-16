@@ -135,7 +135,10 @@ const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTask
           value={weekStart}
         />
       </div>
-      <h4>daily tasks</h4>
+      <h4>
+        daily tasks
+        <span className="FormDailyTasksCount"> ({dailyTasks.length})</span>
+      </h4>
       <div>
         <div>
           <span className="FormDailyTaskHeader">name</span>
@@ -169,7 +172,10 @@ const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTask
         })}
       </div>
       <button onClick={() => handleClickAddDailyTask()}>Add Daily Task</button>
-      <h4>week tasks</h4>
+      <h4>
+        week tasks
+        <span className="FormWeeklyTasksCount"> ({weekTasks.length})</span>
+      </h4>
       <div>
         <div>
           <span className="FormDailyTaskHeader">name</span>
