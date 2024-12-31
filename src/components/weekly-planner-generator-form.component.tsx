@@ -2,7 +2,7 @@ import classNames from "classnames";
 import { ChangeEvent, useEffect, useState } from "react";
 import { v4 as uuidV4 } from "uuid";
 import { DailyTask, WeekTask } from "../app.types";
-import { DAILY_TASKS_V3, WEEKLY_TASKS_V6 as WEEKLY_TASKS } from "./weekly-planner-generator-form.data";
+import { DAILY_TASKS_V4 as DAILY_TASKS, WEEKLY_TASKS_V7 as WEEKLY_TASKS } from "./weekly-planner-generator-form.data";
 import "./weekly-planner-generator-form.styles.css";
 
 enum StartStatus {
@@ -19,7 +19,7 @@ const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTask
   const [weekTasks, setWeekTasks] = useState<WeekTask[]>([]);
 
   useEffect(() => {
-    setDailyTasks(DAILY_TASKS_V3.map((dt) => ({ ...dt })));
+    setDailyTasks(DAILY_TASKS.map((dt) => ({ ...dt })));
     setWeekTasks(WEEKLY_TASKS.map((wt) => ({ ...wt })));
   }, []);
 
@@ -193,6 +193,7 @@ const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTask
               />
               <input
                 className={classNames((!task.points || task.points < 0) && "InvalidFormInput")}
+                min="1"
                 onChange={(e: ChangeEvent<HTMLInputElement>) => handleChangeWeekTaskPoints(task.id, e.target.value)}
                 type="number"
                 value={task.points}
