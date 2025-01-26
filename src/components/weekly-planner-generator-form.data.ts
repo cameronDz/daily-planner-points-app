@@ -71,6 +71,32 @@ export const DAILY_TASKS_2025_01_20 = [
   { id: "2cb9377b-0a7f-4c29-a46b-271fdf3b19da", name: "in-bed by 3AM", points: 3, weeklyMax: 5 },
 ];
 
+export const DAILY_TASKS_2025_01_27 = [
+  { id: "e4d375a3-df4e-466d-979f-0a492d56d0ee", name: "morning - cold shower", points: 1 },
+  { id: "f48ecaba-a29e-449e-b905-3e4274a7dc87", name: "morning - brush teeth", points: 1 },
+
+  { id: "303c4f5a-1e18-480e-bb94-66c564c2c4fc", name: "jog session (morning - before 10am)", points: 6 },
+  { id: "403c4f5a-1e18-480e-bb94-66c564c2c4fc", name: "jog session (+40min)", points: 4 },
+
+  { id: "44444f5a-1e18-480e-bb94-66c564c2c4fc", name: "exercise session", points: 4 },
+  { id: "203c4f5a-1e18-480e-bb94-66c564c2c4fc", name: "stretch session", points: 4 },
+
+  { id: "217e93c5-455c-4450-8fe4-9b86224103d0", name: "AM supplements/vitamins", points: 1 },
+  { id: "37916622-6f51-4ee0-a048-4e7db7eaf4e4", name: "PM supplements/vitamins", points: 1 },
+
+  { id: "0bc49d21-f9e4-4010-9dc7-b7206080c633", name: "protien shake", points: 2 },
+  { id: "5095b9e5-d47f-4a80-ba08-dfd0905858fb", name: "water intake (1 nalgene)", points: 2 },
+
+  { id: "5bae23a6-1c37-4baa-9148-e7fc3cfb258b", name: "journal entry", points: 2 },
+  { id: "eaa2f47b-75ce-4a4d-bbc6-bd010e05651b", name: "house work session", points: 4 },
+
+  { id: "da2f6a38-df48-4362-92d2-09cedf697595", name: "reading session (work-lunch)", points: 2 },
+  { id: "da2f6a38-df48-4362-92d2-09cedf697595", name: "reading session (general)", points: 1 },
+
+  { id: "fc563da3-4966-4847-bed9-a3aca69f727d", name: "night - brush teeth", points: 2 },
+  { id: "2cb9377b-0a7f-4c29-a46b-271fdf3b19da", name: "in-bed by 3AM", points: 3 },
+];
+
 export const WEEKLY_TASKS_2024_12_30 = [
   { id: "508f4898-974a-4585-861c-d5f21cee5234", name: "HR incentive-fit purchases", points: 5 },
   { id: "7368fcaf-c436-4523-b866-9d539bad519c", name: "HR incentive-fit apply", points: 3 },
@@ -254,4 +280,60 @@ export const WEEKLY_TASKS_2025_01_20 = [
 
   { id: "1440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "read code complete chapter 20", points: 6 },
   { id: "34343434-af57-495d-88c6-52a2e1a4b6c5", name: "read code complete chapter 21", points: 3 },
+];
+
+export const WEEKLY_TASKS_2025_01_27 = [
+  { id: "555461cd-3333-4eec-99ae-47f440a1b8a8", name: "kitchen - install laundry cover", points: 4 },
+  { id: "bcc461cd-b791-4eec-99ae-47f440a1b8a8", name: "master bath - putty coat 2", points: 6 },
+
+  { id: "44444444-dead-4ebf-991f-504452dc706b", name: "submit 2024 taxes", points: 4 },
+  { id: "4b903b3f-a2c1-4a4f-972a-1d6cd3578072", name: "yard - schedule surveyor", points: 4 },
+
+  { id: "aa80f852-3a6b-4ba9-8d2d-eccbcf1be370", name: "HR - paternity followup", points: 4 },
+  { id: "83bb0a1c-6780-4797-bfe0-3496565fe306", name: "jeep registration facts", points: 8 },
+
+  { id: "5722666d-076e-4c03-a244-2287643fcab2", name: "scheduler app mvp (planning & actual)", points: 6 },
+  { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "pop-culture website brain session (2hr)", points: 4 },
+
+  { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "monthly budget", points: 4 },
+  { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "master bath - ceiling vent cutout", points: 3 },
+
+  { id: "220ad56b-a4ea-43f6-b2e1-2f4cd0dac0d5", name: "organize physical file", points: 4 },
+  { id: "3878e8e7-dead-4ebf-991f-504452dc706b", name: "jeep registration appt", points: 4 },
+
+  { id: "99999999-b791-4eec-99ae-47f440a1b8a8", name: "purchase amazon shirts", points: 2 },
+  { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "video game session (2hr)", points: 4 },
+
+  { id: "f5c0db6c-90b5-4fe7-9c82-3a10977d5e63", name: "organize google-drive files", points: 4 },
+  { id: "6d4382ac-adf3-448a-b8f5-cbf0eefdc924", name: "organize file-base files", points: 6 },
+
+  { id: "57220edd-076e-4c03-a244-2287643fcab2", name: "master bath - putty coat 3", points: 6 },
+  { id: "555461cd-b791-4eec-99ae-47f440a1b8a8", name: "kitchen - cabinet lower shelf", points: 2 },
+
+  { id: "7da85d80-81eb-4105-a7ab-093f4f27e528", name: "read lacrosse book thru chap 4", points: 4 },
+  { id: "34343434-af57-495d-88c6-52a2e1a4b6c5", name: "read code complete chapter 21", points: 3 },
+
+  { id: "5440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "yard - dig up/bag moss", points: 3 },
+  { id: "aaa461cd-b791-4eec-99ae-47f440a1b8a8", name: "yard - trim (12) back row tree limbs", points: 3 },
+
+  { id: "1440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "", points: 2 },
+  { id: "88888888-3333-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+
+  { id: "1aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+  { id: "2aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+
+  { id: "555666cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+  { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+
+  { id: "de0ca6e3-dcd4-46c9-819b-ed1420ad9875", name: "", points: 2 },
+  { id: "d37d27b1-a360-4a30-bb3e-b4016763107e", name: "", points: 2 },
+
+  { id: "171353e3-e5df-478e-901e-ff266fd9c963", name: "", points: 2 },
+  { id: "0b216b14-75ea-4c77-b3d6-d22b7200e567", name: "", points: 2 },
+
+  { id: "255ad56b-a4ea-43f6-b2e1-2f4cd0dac0d5", name: "", points: 2 },
+  { id: "c4b817e5-00e9-407d-9300-ceede081e92f", name: "", points: 2 },
+
+  { id: "444461cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+  { id: "33a461cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
 ];

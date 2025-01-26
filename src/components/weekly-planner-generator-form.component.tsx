@@ -3,8 +3,8 @@ import { ChangeEvent, useEffect, useState } from "react";
 import { v4 as uuidV4 } from "uuid";
 import { DailyTask, WeekTask } from "../app.types";
 import {
-  DAILY_TASKS_2025_01_20 as DAILY_TASKS,
-  WEEKLY_TASKS_2025_01_20 as WEEKLY_TASKS,
+  DAILY_TASKS_2025_01_27 as DAILY_TASKS,
+  WEEKLY_TASKS_2025_01_27 as WEEKLY_TASKS,
 } from "./weekly-planner-generator-form.data";
 import "./weekly-planner-generator-form.styles.css";
 
@@ -90,7 +90,7 @@ const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTask
   };
 
   const handleClickSubmit = () => {
-    const hasInvalidDailyTask = dailyTasks.some((dt) => !dt.name || dt.points <= 0 || dt.weeklyMax <= 0);
+    const hasInvalidDailyTask = dailyTasks.some((dt) => !dt.name || dt.points <= 0 || (dt.weeklyMax || 0) <= 0);
     const hasInvalidWeekTask = weekTasks.some((wt) => !wt.name || wt.points <= 0);
     if (hasInvalidDailyTask || hasInvalidWeekTask) {
       alert("form tasks are not valid");
