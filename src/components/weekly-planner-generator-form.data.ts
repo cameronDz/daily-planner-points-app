@@ -283,38 +283,38 @@ export const WEEKLY_TASKS_2025_01_20 = [
 ];
 
 export const WEEKLY_TASKS_2025_01_27 = [
-  { id: "555461cd-3333-4eec-99ae-47f440a1b8a8", name: "kitchen - install laundry cover", points: 4 },
   { id: "bcc461cd-b791-4eec-99ae-47f440a1b8a8", name: "master bath - putty coat 2", points: 6 },
+  { id: "4b903b3f-a2c1-4a4f-972a-1d6cd3578072", name: "yard - schedule surveyor", points: 4 },
 
   { id: "44444444-dead-4ebf-991f-504452dc706b", name: "submit 2024 taxes", points: 4 },
-  { id: "4b903b3f-a2c1-4a4f-972a-1d6cd3578072", name: "yard - schedule surveyor", points: 4 },
+  { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "monthly budget/paycheck distribution", points: 4 },
 
   { id: "aa80f852-3a6b-4ba9-8d2d-eccbcf1be370", name: "HR - paternity followup", points: 4 },
   { id: "83bb0a1c-6780-4797-bfe0-3496565fe306", name: "jeep registration facts", points: 8 },
 
-  { id: "5722666d-076e-4c03-a244-2287643fcab2", name: "scheduler app mvp (planning & actual)", points: 6 },
   { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "pop-culture website brain session (2hr)", points: 4 },
-
-  { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "monthly budget", points: 4 },
-  { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "master bath - ceiling vent cutout", points: 3 },
-
-  { id: "220ad56b-a4ea-43f6-b2e1-2f4cd0dac0d5", name: "organize physical file", points: 4 },
-  { id: "3878e8e7-dead-4ebf-991f-504452dc706b", name: "jeep registration appt", points: 4 },
-
-  { id: "99999999-b791-4eec-99ae-47f440a1b8a8", name: "purchase amazon shirts", points: 2 },
   { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "video game session (2hr)", points: 4 },
+
+  { id: "5722666d-076e-4c03-a244-2287643fcab2", name: "scheduler app mvp (planning & actual)", points: 6 },
+  { id: "555461cd-b791-4eec-99ae-47f440a1b8a8", name: "kitchen - cabinet lower shelf", points: 2 },
+
+  { id: "57220edd-076e-4c03-a244-2287643fcab2", name: "master bath - putty coat 3", points: 6 },
+  { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "master bath - ceiling vent cutout", points: 3 },
 
   { id: "f5c0db6c-90b5-4fe7-9c82-3a10977d5e63", name: "organize google-drive files", points: 4 },
   { id: "6d4382ac-adf3-448a-b8f5-cbf0eefdc924", name: "organize file-base files", points: 6 },
 
-  { id: "57220edd-076e-4c03-a244-2287643fcab2", name: "master bath - putty coat 3", points: 6 },
-  { id: "555461cd-b791-4eec-99ae-47f440a1b8a8", name: "kitchen - cabinet lower shelf", points: 2 },
+  { id: "220ad56b-a4ea-43f6-b2e1-2f4cd0dac0d5", name: "organize physical file", points: 4 },
+  { id: "3878e8e7-dead-4ebf-991f-504452dc706b", name: "jeep registration appt", points: 4 },
 
   { id: "7da85d80-81eb-4105-a7ab-093f4f27e528", name: "read lacrosse book thru chap 4", points: 4 },
   { id: "34343434-af57-495d-88c6-52a2e1a4b6c5", name: "read code complete chapter 21", points: 3 },
 
   { id: "5440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "yard - dig up/bag moss", points: 3 },
   { id: "aaa461cd-b791-4eec-99ae-47f440a1b8a8", name: "yard - trim (12) back row tree limbs", points: 3 },
+
+  { id: "99999999-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+  { id: "555461cd-3333-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
 
   { id: "1440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "", points: 2 },
   { id: "88888888-3333-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
