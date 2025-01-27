@@ -90,7 +90,7 @@ const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTask
   };
 
   const handleClickSubmit = () => {
-    const hasInvalidDailyTask = dailyTasks.some((dt) => !dt.name || dt.points <= 0 || (dt.weeklyMax || 0) <= 0);
+    const hasInvalidDailyTask = dailyTasks.some((dt) => !dt.name || dt.points <= 0); // || (dt.weeklyMax || 0) <= 0);
     const hasInvalidWeekTask = weekTasks.some((wt) => !wt.name || wt.points <= 0);
     if (hasInvalidDailyTask || hasInvalidWeekTask) {
       alert("form tasks are not valid");
@@ -165,7 +165,7 @@ const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTask
                 value={task.points}
               />
               <input
-                className={classNames((!task.weeklyMax || task.weeklyMax < 0) && "InvalidFormInput")}
+                // className={classNames((!task.weeklyMax || task.weeklyMax < 0) && "InvalidFormInput")}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => handleChangeDailyTaskWeeklyMax(task.id, e.target.value)}
                 type="number"
                 value={task.weeklyMax}
