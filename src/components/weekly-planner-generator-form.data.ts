@@ -295,8 +295,8 @@ export const WEEKLY_TASKS_2025_01_27 = [
   { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "pop-culture website brain session (2hr)", points: 4 },
   { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "video game session (2hr)", points: 4 },
 
+  { id: "5722666d-076e-4c03-a244-2287643fcab2", name: "scheduler app data modeling session (2hr)", points: 4 },
   { id: "5722666d-076e-4c03-a244-2287643fcab2", name: "scheduler app mvp (planning & actual)", points: 6 },
-  { id: "555461cd-b791-4eec-99ae-47f440a1b8a8", name: "kitchen - cabinet lower shelf", points: 2 },
 
   { id: "57220edd-076e-4c03-a244-2287643fcab2", name: "master bath - putty coat 3", points: 6 },
   { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "master bath - ceiling vent cutout", points: 3 },
@@ -307,33 +307,24 @@ export const WEEKLY_TASKS_2025_01_27 = [
   { id: "220ad56b-a4ea-43f6-b2e1-2f4cd0dac0d5", name: "organize physical file", points: 4 },
   { id: "3878e8e7-dead-4ebf-991f-504452dc706b", name: "jeep registration appt", points: 4 },
 
-  { id: "7da85d80-81eb-4105-a7ab-093f4f27e528", name: "read lacrosse book thru chap 4", points: 4 },
-  { id: "34343434-af57-495d-88c6-52a2e1a4b6c5", name: "read code complete chapter 21", points: 3 },
-
   { id: "5440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "yard - dig up/bag moss", points: 3 },
   { id: "aaa461cd-b791-4eec-99ae-47f440a1b8a8", name: "yard - trim (12) back row tree limbs", points: 3 },
 
-  { id: "99999999-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
-  { id: "555461cd-3333-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+  { id: "7da85d80-81eb-4105-a7ab-093f4f27e528", name: "read lacrosse book thru chap 4", points: 2 },
+  { id: "99999999-b791-4eec-99ae-47f440a1b8a8", name: "read lacrosse book thru chap 5", points: 2 },
 
-  { id: "1440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "", points: 2 },
-  { id: "88888888-3333-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+  { id: "555461cd-3333-4eec-99ae-47f440a1b8a8", name: "read lacrosse book thru chap 6", points: 3 },
+  { id: "1440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "read lacrosse book thru chap 7", points: 3 },
 
-  { id: "1aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
-  { id: "2aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+  { id: "88888888-3333-4eec-99ae-47f440a1b8a8", name: "read lacrosse book thru chap 8", points: 4 },
+  { id: "1aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "read lacrosse book thru chap 9", points: 4 },
 
-  { id: "555666cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
-  { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+  { id: "2aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "read lacrosse book thru chap 10", points: 5 },
+  { id: "555666cd-b791-4eec-99ae-47f440a1b8a8", name: "read lacrosse book thru chap 11", points: 5 },
 
-  { id: "de0ca6e3-dcd4-46c9-819b-ed1420ad9875", name: "", points: 2 },
-  { id: "d37d27b1-a360-4a30-bb3e-b4016763107e", name: "", points: 2 },
+  { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "read code complete chapter 21", points: 2 },
+  { id: "34343434-af57-495d-88c6-52a2e1a4b6c5", name: "read code complete chapter 22", points: 3 },
 
-  { id: "171353e3-e5df-478e-901e-ff266fd9c963", name: "", points: 2 },
-  { id: "0b216b14-75ea-4c77-b3d6-d22b7200e567", name: "", points: 2 },
-
-  { id: "255ad56b-a4ea-43f6-b2e1-2f4cd0dac0d5", name: "", points: 2 },
-  { id: "c4b817e5-00e9-407d-9300-ceede081e92f", name: "", points: 2 },
-
-  { id: "444461cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
-  { id: "33a461cd-b791-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+  { id: "de0ca6e3-dcd4-46c9-819b-ed1420ad9875", name: "research - new car (SUV made USA)", points: 4 },
+  { id: "555461cd-b791-4eec-99ae-47f440a1b8a8", name: "kitchen - cabinet lower shelf", points: 2 },
 ];
