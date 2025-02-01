@@ -1,31 +1,31 @@
-.FormButtonsContainer {
+.form-buttons-container {
     display: flex;
     margin-top: 4px;
 }
 
-.FormBackButton {
+.form-back-button {
     margin: 0 0 0 auto;
 }
 
-.FormStartDateInput {
+.form-start-date-input {
     margin-left: 8px;
 }
 
-.FormDailyTaskHeader {
+.form-daily-task-header {
     display: inline-flex;
     margin-left: 4px;
     min-width: 166px;
 }
 
-.FormDailyTaskHeader:first-of-type {
+.form-daily-task-header:first-of-type {
     margin-left: 44px;
 }
 
-.FormDailyTasksCount,
-.FormWeeklyTasksCount {
+.form-daily-tasks-count,
+.form-weekly-tasks-count {
     font-size: 10px;
 }
 
-.InvalidFormInput {
+.invalid-form-input {
     border: 4px red solid;
 }

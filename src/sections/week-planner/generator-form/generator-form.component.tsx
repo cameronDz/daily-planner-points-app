@@ -1,12 +1,9 @@
 import classNames from "classnames";
 import { ChangeEvent, useEffect, useState } from "react";
 import { v4 as uuidV4 } from "uuid";
-import { DailyTask, WeekTask } from "../app.types";
-import {
-  DAILY_TASKS_2025_01_27 as DAILY_TASKS,
-  WEEKLY_TASKS_2025_01_27 as WEEKLY_TASKS,
-} from "./weekly-planner-generator-form.data";
-import "./weekly-planner-generator-form.styles.css";
+import { DailyTask, WeekTask } from "../week-planner.types";
+import { DAILY_TASKS_2025_01_27 as DAILY_TASKS, WEEKLY_TASKS_2025_01_27 as WEEKLY_TASKS } from "./generator-form.data";
+import "./generator-form.styles.css";
 
 enum StartStatus {
   NOT_SET = "NOT_SET",
@@ -14,8 +11,8 @@ enum StartStatus {
   VALID = "VALID",
 }
 const MONDAY_INDEX = 0;
-type DailyTaskWeeklyGeneratorFormProps = { onClose: () => void };
-const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTaskWeeklyGeneratorFormProps) => {
+type WeekPlannerGeneratorFormProps = { onClose: () => void };
+const WeekPlannerGeneratorFormComponent = ({ onClose = () => {} }: WeekPlannerGeneratorFormProps) => {
   const [dailyTasks, setDailyTasks] = useState<DailyTask[]>([]);
   const [startStatus, setStartStatus] = useState<StartStatus>(StartStatus.NOT_SET);
   const [weekStart, setWeekStart] = useState<string>("");
@@ -122,16 +119,16 @@ const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTask
 
   return (
     <section>
-      <div className="FormButtonsContainer">
+      <div className="form-buttons-container">
         <button onClick={handleClickSubmit}>Submit</button>
-        <button className="FormBackButton" onClick={onClose}>
+        <button className="form-back-button" onClick={onClose}>
           Back
         </button>
       </div>
       <div>
         <label htmlFor="date">week start date</label>
         <input
-          className={classNames("FormStartDateInput", startStatus === StartStatus.INVALID && "InvalidFormInput")}
+          className={classNames("form-start-date-input", startStatus === StartStatus.INVALID && "invalid-form-input")}
           name="date"
           onChange={handleChangeWeek}
           type="date"
@@ -140,32 +137,32 @@ const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTask
       </div>
       <h4>
         daily tasks
-        <span className="FormDailyTasksCount"> ({dailyTasks.length})</span>
+        <span className="form-daily-tasks-count"> ({dailyTasks.length})</span>
       </h4>
       <div>
         <div>
-          <span className="FormDailyTaskHeader">name</span>
-          <span className="FormDailyTaskHeader">points</span>
-          <span className="FormDailyTaskHeader">weekly max</span>
+          <span className="form-daily-task-header">name</span>
+          <span className="form-daily-task-header">points</span>
+          <span className="form-daily-task-header">weekly max</span>
         </div>
         {dailyTasks.map((task) => {
           return (
             <div key={task.id}>
               <button onClick={() => handleClickDeleteDailyTask(task.id)}>DEL</button>
               <input
-                className={classNames(!task.name && "InvalidFormInput")}
+                className={classNames(!task.name && "invalid-form-input")}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => handleChangeDailyTaskName(task.id, e.target.value)}
                 type="text"
                 value={task.name}
               />
               <input
-                className={classNames((!task.points || task.points < 0) && "InvalidFormInput")}
+                className={classNames((!task.points || task.points < 0) && "invalid-form-input")}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => handleChangeDailyTaskPoints(task.id, e.target.value)}
                 type="number"
                 value={task.points}
               />
               <input
-                // className={classNames((!task.weeklyMax || task.weeklyMax < 0) && "InvalidFormInput")}
+                // className={classNames((!task.weeklyMax || task.weeklyMax < 0) && "invalid-form-input")}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => handleChangeDailyTaskWeeklyMax(task.id, e.target.value)}
                 type="number"
                 value={task.weeklyMax}
@@ -177,25 +174,25 @@ const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTask
       <button onClick={() => handleClickAddDailyTask()}>Add Daily Task</button>
       <h4>
         week tasks
-        <span className="FormWeeklyTasksCount"> ({weekTasks.length})</span>
+        <span className="form-weekly-tasks-count"> ({weekTasks.length})</span>
       </h4>
       <div>
         <div>
-          <span className="FormDailyTaskHeader">name</span>
-          <span className="FormDailyTaskHeader">points</span>
+          <span className="form-daily-task-header">name</span>
+          <span className="form-daily-task-header">points</span>
         </div>
         {weekTasks.map((task) => {
           return (
             <div key={task.id}>
               <button onClick={() => handleClickDeleteWeekTask(task.id)}>DEL</button>
               <input
-                className={classNames(!task.name && "InvalidFormInput")}
+                className={classNames(!task.name && "invalid-form-input")}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => handleChangeWeekTaskName(task.id, e.target.value)}
                 type="text"
                 value={task.name}
               />
               <input
-                className={classNames((!task.points || task.points < 0) && "InvalidFormInput")}
+                className={classNames((!task.points || task.points < 0) && "invalid-form-input")}
                 min="1"
                 onChange={(e: ChangeEvent<HTMLInputElement>) => handleChangeWeekTaskPoints(task.id, e.target.value)}
                 type="number"
@@ -210,4 +207,4 @@ const DailyTaskWeeklyGeneratorFormComponent = ({ onClose = () => {} }: DailyTask
   );
 };
 
-export default DailyTaskWeeklyGeneratorFormComponent;
+export default WeekPlannerGeneratorFormComponent;

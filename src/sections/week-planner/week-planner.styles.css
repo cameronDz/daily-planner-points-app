@@ -1,9 +1,9 @@
-.App {
+.week-planner-root {
     margin: 0 auto;
     max-width: 1400px;
 }
 
-.App-header {
+.week-planner-header {
     background: grey;
     font-weight: 700;
 }

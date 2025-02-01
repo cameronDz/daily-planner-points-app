@@ -1,8 +1,8 @@
-.Table-col-day-header {
+.table-col-day-header {
     width: 48px;
 }
 
-.Table-col-input {
+.table-col-input {
     align-items: center;
     display: flex;
     width: 100%;
@@ -19,14 +19,14 @@
     margin: 0 8px;
 }
 
-.Weekly-tasks-header {
+.weekly-tasks-header {
     margin-bottom: 0;
 }
 
-.Weekly-tasks-wrapper {
+.weekly-tasks-wrapper {
     display: flex;
 }
 
-.Table-grey-row {
+.table-grey-row {
     background-color: lightgray;
 }

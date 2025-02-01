@@ -1,9 +1,8 @@
 import { ChangeEvent } from "react";
-import { WeeklyPlanner } from "../app.types";
+import { WeeklyPlanner } from "./week-planner.types";
 
-type UploadWeeklyPlannerInputProps = { onUpload: (planner: WeeklyPlanner) => void };
-
-const UploadWeeklyPlannerInputComponent = ({ onUpload = (_planner) => {} }: UploadWeeklyPlannerInputProps) => {
+type WeekPlannerUploadInputProps = { onUpload: (planner: WeeklyPlanner) => void };
+const WeekPlannerUploadInputComponent = ({ onUpload = (_planner) => {} }: WeekPlannerUploadInputProps) => {
   const handleUpload = (changeEvent: ChangeEvent<HTMLInputElement>) => {
     if (!changeEvent.target.files?.[0]) {
       return;
@@ -29,4 +28,4 @@ const UploadWeeklyPlannerInputComponent = ({ onUpload = (_planner) => {} }: Uplo
   return <input accept=".json" onChange={handleUpload} type="file" />;
 };
 
-export default UploadWeeklyPlannerInputComponent;
+export default WeekPlannerUploadInputComponent;

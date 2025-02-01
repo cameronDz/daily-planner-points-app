@@ -1,14 +1,13 @@
 import { Fragment, useEffect, useState } from "react";
-import { DailyTask, WeekTask, WeeklyPlanner } from "../app.types";
-import "./weekly-planner-table.styles.css";
+import { DailyTask, WeekTask, WeeklyPlanner } from "../week-planner.types";
+import "./table.styles.css";
 
 const DAYS_OF_THE_WEEK = ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"];
-type WeeklyPlannerTableProps = { onClose: () => void; planner: WeeklyPlanner };
-
-const WeeklyPlannerTableComponent = ({
+type WeekPlannerTableProps = { onClose: () => void; planner: WeeklyPlanner };
+const WeekPlannerTableComponent = ({
   onClose = () => {},
   planner = { dailyTasks: [], weekStart: "", weekTasks: [] },
-}: WeeklyPlannerTableProps) => {
+}: WeekPlannerTableProps) => {
   const [dailyTasks, setDailyTasks] = useState<DailyTask[]>([]);
   const [days, setDays] = useState<string[]>([...DAYS_OF_THE_WEEK]);
   const [isPrintView, setIsPrintView] = useState(false);
@@ -105,7 +104,7 @@ const WeeklyPlannerTableComponent = ({
         <thead>
           <tr>
             {days.map((day) => (
-              <th key={day} className="Table-col-day-header">
+              <th key={day} className="table-col-day-header">
                 {day}
               </th>
             ))}
@@ -114,12 +113,12 @@ const WeeklyPlannerTableComponent = ({
         <tbody>
           {dailyTasks.map((dt, idx) => {
             return (
-              <tr key={dt.name} className={idx % 2 === 1 ? "Table-grey-row" : ""}>
+              <tr key={dt.name} className={idx % 2 === 1 ? "table-grey-row" : ""}>
                 {DAYS_OF_THE_WEEK.map((day, idx) => (
                   <td key={day}>
                     <input
                       checked={!!dt.daysComplete?.[idx]}
-                      className="Table-col-input"
+                      className="table-col-input"
                       onChange={() => handleChangeDailyTask(dt.id, idx)}
                       type="checkbox"
                     />
@@ -132,8 +131,8 @@ const WeeklyPlannerTableComponent = ({
         </tbody>
       </table>
 
-      <h3 className="Weekly-tasks-header">weekly tasks</h3>
-      <div className="Weekly-tasks-wrapper">
+      <h3 className="weekly-tasks-header">weekly tasks</h3>
+      <div className="weekly-tasks-wrapper">
         <table>
           <tbody>
             {weekTasks.map((wt, idx) => {
@@ -151,7 +150,7 @@ const WeeklyPlannerTableComponent = ({
           </tbody>
         </table>
 
-        <table className="Table-weekly-tasks">
+        <table className="table-weekly-tasks">
           <tbody>
             {weekTasks.map((wt, idx) => {
               return (
@@ -172,4 +171,4 @@ const WeeklyPlannerTableComponent = ({
   );
 };
 
-export default WeeklyPlannerTableComponent;
+export default WeekPlannerTableComponent;
