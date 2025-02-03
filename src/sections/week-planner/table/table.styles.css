@@ -14,6 +14,15 @@
     margin-right: 4px;
 }
 
+.points-display-name.padded {
+    margin-left: 4px;
+}
+
+.points-display-name.small {
+    font-size: 14px;
+    font-weight: 600;
+}
+
 .points-display-value {
     font-size: 10px;
     margin: 0 8px;

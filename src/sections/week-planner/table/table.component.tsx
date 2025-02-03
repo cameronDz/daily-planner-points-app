@@ -81,10 +81,10 @@ const WeekPlannerTableComponent = ({
   const pointsDisplay = (value: number, name: string) => {
     return (
       <Fragment>
+        <span className="points-display-name small">{name}</span>
         <sub className="points-display-value">
-          {value}pt{value === 0 || value > 1 ? "s" : ""}.
+          ({value}pt{value === 0 || value > 1 ? "s" : ""}.)
         </sub>
-        <span className="points-display-name">{name}</span>
       </Fragment>
     );
   };
@@ -124,7 +124,12 @@ const WeekPlannerTableComponent = ({
                     />
                   </td>
                 ))}
-                <td>{pointsDisplay(dt.points, dt.name)}</td>
+                <td>
+                  <span className="points-display-name padded">{dt.name}</span>
+                  <sub className="points-display-value">
+                    ({dt.points}pt{dt.points === 0 || dt.points > 1 ? "s" : ""}.)
+                  </sub>
+                </td>
               </tr>
             );
           })}

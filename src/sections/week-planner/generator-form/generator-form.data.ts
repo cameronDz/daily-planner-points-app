@@ -18,7 +18,7 @@ export const DAILY_TASKS_2024_12_30 = [
   { id: "5bae23a6-1c37-4baa-9148-e7fc3cfb258b", name: "journal entry", points: 2, weeklyMax: 5 },
   { id: "eaa2f47b-75ce-4a4d-bbc6-bd010e05651b", name: "house work session", points: 4, weeklyMax: 3 },
 
-  { id: "da2f6a38-df48-4362-92d2-09cedf697595", name: "reading session (work-lunch)", points: 3, weeklyMax: 5 },
+  { id: "12341234-df48-4362-92d2-09cedf697595", name: "reading session (work-lunch)", points: 3, weeklyMax: 5 },
   { id: "da2f6a38-df48-4362-92d2-09cedf697595", name: "reading session (general)", points: 1, weeklyMax: 5 },
 
   { id: "fc563da3-4966-4847-bed9-a3aca69f727d", name: "night - brush teeth", points: 2, weeklyMax: 5 },
@@ -44,7 +44,7 @@ export const DAILY_TASKS_2025_01_06 = [
   { id: "5bae23a6-1c37-4baa-9148-e7fc3cfb258b", name: "journal entry", points: 2, weeklyMax: 5 },
   { id: "eaa2f47b-75ce-4a4d-bbc6-bd010e05651b", name: "house work session", points: 4, weeklyMax: 3 },
 
-  { id: "da2f6a38-df48-4362-92d2-09cedf697595", name: "reading session (work-lunch)", points: 3, weeklyMax: 5 },
+  { id: "12351235-df48-4362-92d2-09cedf697595", name: "reading session (work-lunch)", points: 3, weeklyMax: 5 },
   { id: "da2f6a38-df48-4362-92d2-09cedf697595", name: "reading session (general)", points: 1, weeklyMax: 5 },
 
   { id: "fc563da3-4966-4847-bed9-a3aca69f727d", name: "night - brush teeth", points: 2, weeklyMax: 5 },
@@ -90,7 +90,7 @@ export const DAILY_TASKS_2025_01_27 = [
   { id: "5bae23a6-1c37-4baa-9148-e7fc3cfb258b", name: "journal entry", points: 2 },
   { id: "eaa2f47b-75ce-4a4d-bbc6-bd010e05651b", name: "house work session", points: 4 },
 
-  { id: "da2f6a38-df48-4362-92d2-09cedf697595", name: "reading session (work-lunch)", points: 2 },
+  { id: "12351235-df48-4362-92d2-09cedf697595", name: "reading session (work-lunch)", points: 2 },
   { id: "da2f6a38-df48-4362-92d2-09cedf697595", name: "reading session (general)", points: 1 },
 
   { id: "fc563da3-4966-4847-bed9-a3aca69f727d", name: "night - brush teeth", points: 2 },
@@ -243,7 +243,7 @@ export const WEEKLY_TASKS_2025_01_20 = [
   { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "monthly budget", points: 4 },
 
   { id: "5722666d-076e-4c03-a244-2287643fcab2", name: "scheduler app mvp (planning & actual)", points: 6 },
-  { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "pop-culture website brain session (2hr)", points: 4 },
+  { id: "76576576-7ece-4452-a6ba-f497b69a8fb9", name: "pop-culture website brain session (2hr)", points: 4 },
 
   { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "master bath - ceiling vent cutout", points: 3 },
   { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "master bedroom - tv wires", points: 2 },
@@ -292,11 +292,11 @@ export const WEEKLY_TASKS_2025_01_27 = [
   { id: "aa80f852-3a6b-4ba9-8d2d-eccbcf1be370", name: "HR - paternity followup", points: 4 },
   { id: "83bb0a1c-6780-4797-bfe0-3496565fe306", name: "jeep registration facts", points: 8 },
 
-  { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "pop-culture website brain session (2hr)", points: 4 },
+  { id: "76545673-7ece-4452-a6ba-f497b69a8fb9", name: "pop-culture website brain session (2hr)", points: 4 },
   { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "video game session (2hr)", points: 4 },
 
   { id: "5722666d-076e-4c03-a244-2287643fcab2", name: "scheduler app data modeling session (2hr)", points: 4 },
-  { id: "5722666d-076e-4c03-a244-2287643fcab2", name: "scheduler app mvp (planning & actual)", points: 6 },
+  { id: "12341234-076e-4c03-a244-2287643fcab2", name: "scheduler app mvp (planning & actual)", points: 6 },
 
   { id: "57220edd-076e-4c03-a244-2287643fcab2", name: "master bath - putty coat 3", points: 6 },
   { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "master bath - ceiling vent cutout", points: 3 },
@@ -327,4 +327,51 @@ export const WEEKLY_TASKS_2025_01_27 = [
 
   { id: "99999999-b791-4eec-99ae-47f440a1b8a8", name: "living room - assemble bureau", points: 2 },
   { id: "de0ca6e3-dcd4-46c9-819b-ed1420ad9875", name: "research - new car (SUV made USA)", points: 4 },
+];
+
+export const WEEKLY_TASKS_2025_02_03 = [
+  { id: "57220edd-076e-4c03-a244-2287643fcab2", name: "house (master bath) - flatten shower wall", points: 3 },
+  { id: "45454545-076e-4c03-a244-2287643fcab2", name: "house (master bath) - putty coat 3", points: 6 },
+
+  { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "finance - monthly budget/paycheck distribution", points: 4 },
+  { id: "44444444-dead-4ebf-991f-504452dc706b", name: "finance - submit 2024 taxes", points: 4 },
+
+  { id: "83bb0a1c-6780-4797-bfe0-3496565fe306", name: "finance - jeep registration facts", points: 8 },
+  { id: "aa80f852-3a6b-4ba9-8d2d-eccbcf1be370", name: "finance - paternity followup", points: 4 },
+
+  { id: "4b903b3f-a2c1-4a4f-972a-1d6cd3578072", name: "house (yard) - schedule surveyor", points: 4 },
+  { id: "99999999-b791-4eec-99ae-47f440a1b8a8", name: "house - purchase 1 painting print", points: 2 },
+
+  { id: "16734632-a2c1-4a4f-972a-1d6cd3578072", name: "biz - complete a11y course with certificate", points: 4 },
+  { id: "555666cd-b791-4eec-99ae-47f440a1b8a8", name: "biz - pi home server session (2hr)", points: 6 },
+
+  { id: "5722666d-076e-4c03-a244-2287643fcab2", name: "biz - scheduler app data modeling session (2hr)", points: 4 },
+  { id: "12321231-076e-4c03-a244-2287643fcab2", name: "biz - scheduler app mvp (planning & actual)", points: 6 },
+
+  { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "biz - pop-culture website brain session (2hr)", points: 4 },
+  { id: "12356432-7ece-4452-a6ba-f497b69a8fb9", name: "biz - video game session (2hr)", points: 4 },
+
+  { id: "bcc461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (master bath) - sand walls", points: 4 },
+  { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "house (master bath) - ceiling vent cutout", points: 3 },
+
+  { id: "f5c0db6c-90b5-4fe7-9c82-3a10977d5e63", name: "organize - google-drive files", points: 4 },
+  { id: "6d4382ac-adf3-448a-b8f5-cbf0eefdc924", name: "organize - file-base files", points: 6 },
+
+  { id: "220ad56b-a4ea-43f6-b2e1-2f4cd0dac0d5", name: "organize - physical file", points: 4 },
+  { id: "3878e8e7-dead-4ebf-991f-504452dc706b", name: "finance - jeep registration appt", points: 4 },
+
+  { id: "5440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "house (yard) - trim west row tree limbs", points: 5 },
+  { id: "aaa461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (yard) - trim north row tree limbs", points: 4 },
+
+  { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - code complete chapter 22", points: 2 },
+  { id: "555461cd-3333-4eec-99ae-47f440a1b8a8", name: "read - watership down - finish", points: 3 },
+
+  { id: "1440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "read - lacrosse book thru chap 7", points: 3 },
+  { id: "88888888-3333-4eec-99ae-47f440a1b8a8", name: "read - lacrosse book thru chap 8", points: 4 },
+
+  { id: "1aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - lacrosse book thru chap 9", points: 4 },
+  { id: "2aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - lacrosse book thru chap 10", points: 5 },
+
+  { id: "555461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (kitchen) - cabinet lower shelf", points: 2 },
+  { id: "de0ca6e3-dcd4-46c9-819b-ed1420ad9875", name: "finance - new car (SUV made USA) research", points: 4 },
 ];
