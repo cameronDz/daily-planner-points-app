@@ -1,0 +1,33 @@
+.schedule-tracker-root {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(8, 1fr);
+    padding: 16px;
+}
+
+.schedule-tracker-day {
+    font-weight: bold;
+    text-align: center;
+}
+
+.schedule-tracker-hour {
+    font-weight: 500;
+    padding-right: 8px;
+    text-align: right;
+}
+
+.schedule-tracker-block {
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    height: 64px;
+    justify-content: center;
+}
+
+.schedule-tracker-event {
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+    padding: 4px 8px;
+}

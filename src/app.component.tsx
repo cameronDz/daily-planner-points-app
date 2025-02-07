@@ -1,13 +1,13 @@
-import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
-import WeekPlannerComponent from "./sections/week-planner/week-planner.component";
 import LandingComponent from "./sections/landing/landing.component";
+import ScheduleTrackerComponent from "./sections/schedule-tracker/schedule-tracker.component";
+import WeekPlannerComponent from "./sections/week-planner/week-planner.component";
 
 const AppComponent = () => {
   return (
     <Routes>
       <Route path="/week-planner" element={<WeekPlannerComponent />} />
-      <Route path="/schedule-tracker" element={<Fragment />} />
+      <Route path="/schedule-tracker" element={<ScheduleTrackerComponent />} />
       <Route path="*" element={<LandingComponent />} />
     </Routes>
   );

@@ -26,7 +26,6 @@ const WeekPlannerGeneratorFormComponent = ({ onClose = () => {} }: WeekPlannerGe
   useEffect(() => {
     if (weekStart === "") {
       setStartStatus(StartStatus.NOT_SET);
-      return;
     } else if (new Date(weekStart).getDay() === MONDAY_INDEX) {
       setStartStatus(StartStatus.VALID);
     } else {
@@ -162,7 +161,6 @@ const WeekPlannerGeneratorFormComponent = ({ onClose = () => {} }: WeekPlannerGe
                 value={task.points}
               />
               <input
-                // className={classNames((!task.weeklyMax || task.weeklyMax < 0) && "invalid-form-input")}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => handleChangeDailyTaskWeeklyMax(task.id, e.target.value)}
                 type="number"
                 value={task.weeklyMax}
