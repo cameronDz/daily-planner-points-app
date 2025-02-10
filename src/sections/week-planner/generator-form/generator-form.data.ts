@@ -384,6 +384,9 @@ export const WEEKLY_TASKS_2025_02_10 = [
   { id: "2aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (master bath) - prime walls/ceiling", points: 5 },
 
   { id: "4b903b3f-a2c1-4a4f-972a-1d6cd3578072", name: "house (yard) - schedule surveyor", points: 4 },
+  { id: "67272214-b791-4eec-99ae-47f440a1b8a8", name: "read - 1 article", points: 4 },
+
+  { id: "52515161-6780-4797-bfe0-3496565fe306", name: "finance - set ESPP percent", points: 2 },
   { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "finance - monthly budget/paycheck dist", points: 4 },
 
   { id: "83bb0a1c-6780-4797-bfe0-3496565fe306", name: "finance - jeep registration facts", points: 8 },
