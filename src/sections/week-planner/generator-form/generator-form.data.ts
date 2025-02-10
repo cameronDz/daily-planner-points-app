@@ -384,15 +384,15 @@ export const WEEKLY_TASKS_2025_02_10 = [
   { id: "2aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (master bath) - prime walls/ceiling", points: 5 },
 
   { id: "4b903b3f-a2c1-4a4f-972a-1d6cd3578072", name: "house (yard) - schedule surveyor", points: 4 },
-  { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "finance - monthly budget/paycheck distribution", points: 4 },
+  { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "finance - monthly budget/paycheck dist", points: 4 },
 
   { id: "83bb0a1c-6780-4797-bfe0-3496565fe306", name: "finance - jeep registration facts", points: 8 },
   { id: "555666cd-b791-4eec-99ae-47f440a1b8a8", name: "biz - pi home server session (2hr)", points: 6 },
 
-  { id: "5722666d-076e-4c03-a244-2287643fcab2", name: "biz - scheduler app data modeling session (2hr)", points: 4 },
+  { id: "5722666d-076e-4c03-a244-2287643fcab2", name: "biz - scheduler app data modeling sess (2hr)", points: 4 },
   { id: "12321231-076e-4c03-a244-2287643fcab2", name: "biz - scheduler app mvp (planning & actual)", points: 6 },
 
-  { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "biz - pop-culture website brain session (2hr)", points: 4 },
+  { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "biz - pop-culture website brain sess (2hr)", points: 4 },
   { id: "6d4382ac-adf3-448a-b8f5-cbf0eefdc924", name: "organize - file-base files", points: 6 },
 
   { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - code complete chapter 22", points: 2 },

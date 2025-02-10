@@ -23,9 +23,20 @@ const DailyPlannerComponent = () => {
     setViewingMode(ViewingMode.TABLE);
   };
 
+  const formatWeekSpan = (dateStr: string): string => {
+    const weekStart = new Date(dateStr + "T00:00:00Z");
+    const weekEnd = new Date(weekStart);
+    weekEnd.setDate(weekStart.getDate() + 6);
+    const options: Intl.DateTimeFormatOptions = { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" };
+    const formatDate = (d: Date) => d.toLocaleDateString("en-US", options);
+    return `${formatDate(weekStart)} - ${formatDate(weekEnd)}`;
+  };
+
   return (
     <div className="week-planner-root">
-      <header className="week-planner-header">daily planner points</header>
+      <header className="week-planner-header">
+        {weeklyPlanner.weekStart ? formatWeekSpan(weeklyPlanner.weekStart) : "weekly-planner"}
+      </header>
       {viewingMode === ViewingMode.NONE && (
         <section>
           <h3>Next Steps</h3>
