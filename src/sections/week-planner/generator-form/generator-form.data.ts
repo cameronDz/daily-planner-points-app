@@ -419,13 +419,42 @@ export const WEEKLY_TASKS_2025_02_17 = [
   { id: "12356432-7ece-4452-a6ba-f497b69a8fb9", name: "biz - video game session (2hr)", points: 4 },
 
   { id: "f5c0db6c-90b5-4fe7-9c82-3a10977d5e63", name: "organize - google-drive files", points: 4 },
+  { id: "1265134c-90b5-4fe7-9c82-3a10977d5e63", name: "", points: 4 },
 
   { id: "5440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "house (yard) - trim west row tree limbs", points: 5 },
   { id: "aaa461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (yard) - trim north row tree limbs", points: 4 },
 
+  { id: "16134754-b791-4eec-99ae-47f440a1b8a8", name: "read - count zero book (25%)", points: 3 },
   { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - code complete chapter 23", points: 2 },
-  { id: "1440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "read - lacrosse book thru chap 10", points: 3 },
 
-  { id: "88888888-3333-4eec-99ae-47f440a1b8a8", name: "read - lacrosse book thru chap 11", points: 4 },
-  { id: "1aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - lacrosse book thru chap 12", points: 4 },
+  { id: "1440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "read - lacrosse book thru chap 12", points: 4 },
+  { id: "1aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - lacrosse book thru chap 13", points: 4 },
+
+  { id: "61632623-b791-4eec-99ae-47f440a1b8a8", name: "read - lacrosse book thru chap 14", points: 4 },
+  { id: "88888888-3333-4eec-99ae-47f440a1b8a8", name: "read - lacrosse book thru chap 15", points: 4 },
+];
+
+export const WEEKLY_TASKS_2025_02_24 = [
+  { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "house - ", points: 3 },
+  { id: "aa80f852-3a6b-4ba9-8d2d-eccbcf1be370", name: "finance - ", points: 4 },
+
+  { id: "3878e8e7-dead-4ebf-991f-504452dc706b", name: "finance - ", points: 4 },
+  { id: "16734632-a2c1-4a4f-972a-1d6cd3578072", name: "biz - ", points: 4 },
+
+  { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "biz - ", points: 4 },
+  { id: "12356432-7ece-4452-a6ba-f497b69a8fb9", name: "biz - ", points: 4 },
+
+  { id: "f5c0db6c-90b5-4fe7-9c82-3a10977d5e63", name: "organize -", points: 4 },
+
+  { id: "5440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "house (yard) - ", points: 5 },
+  { id: "aaa461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (yard) - ", points: 4 },
+
+  { id: "16134754-b791-4eec-99ae-47f440a1b8a8", name: "read - count zero book (50%)", points: 3 },
+  { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - code complete chapter 24", points: 2 },
+
+  { id: "1440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "read - lacrosse book thru chap 16", points: 4 },
+  { id: "1aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - lacrosse book thru epilogue", points: 4 },
+
+  { id: "61632623-b791-4eec-99ae-47f440a1b8a8", name: "read - lacrosse book thru appendix a", points: 4 },
+  { id: "88888888-3333-4eec-99ae-47f440a1b8a8", name: "read - lacrosse book thru appendix b", points: 4 },
 ];
