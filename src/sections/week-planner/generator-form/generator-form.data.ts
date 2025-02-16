@@ -409,7 +409,19 @@ export const WEEKLY_TASKS_2025_02_10 = [
 ];
 
 export const WEEKLY_TASKS_2025_02_17 = [
-  { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "house (master bath) - ceiling vent cutout", points: 3 },
+  { id: "bcc461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (master bath) - sand walls", points: 6 },
+  { id: "2aa461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (master bath) - prime walls/ceiling", points: 4 },
+
+  { id: "1265134c-90b5-4fe7-9c82-3a10977d5e63", name: "house (kitchen) remove laundry trim", points: 4 },
+  { id: "61343324-90b5-4fe7-9c82-3a10977d5e63", name: "house (kitchen) install laundry blind", points: 4 },
+
+  { id: "73245828-90b5-4fe7-9c82-3a10977d5e63", name: "house (kitchen) install laundry trim", points: 4 },
+  { id: "52435257-90b5-4fe7-9c82-3a10977d5e63", name: "house (kitchen) paint laundry trim", points: 4 },
+
+  { id: "4b903b3f-a2c1-4a4f-972a-1d6cd3578072", name: "house (yard) - schedule surveyor", points: 4 },
+  { id: "67272214-b791-4eec-99ae-47f440a1b8a8", name: "read - 1 article", points: 4 },
+
+  { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "finance - monthly budget/paycheck dist", points: 4 },
   { id: "aa80f852-3a6b-4ba9-8d2d-eccbcf1be370", name: "finance - paternity followup", points: 4 },
 
   { id: "3878e8e7-dead-4ebf-991f-504452dc706b", name: "finance - jeep registration appt", points: 4 },
@@ -418,8 +430,11 @@ export const WEEKLY_TASKS_2025_02_17 = [
   { id: "f0f38b30-7ece-4452-a6ba-f497b69a8fb9", name: "biz - pop-culture website brain session (2hr)", points: 4 },
   { id: "12356432-7ece-4452-a6ba-f497b69a8fb9", name: "biz - video game session (2hr)", points: 4 },
 
+  { id: "6d4382ac-adf3-448a-b8f5-cbf0eefdc924", name: "organize - file-base files", points: 6 },
   { id: "f5c0db6c-90b5-4fe7-9c82-3a10977d5e63", name: "organize - google-drive files", points: 4 },
-  { id: "1265134c-90b5-4fe7-9c82-3a10977d5e63", name: "", points: 4 },
+
+  { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "house (master bath) - ceiling vent cutout", points: 3 },
+  { id: "555461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (kitchen) - cabinet lower shelf", points: 2 },
 
   { id: "5440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "house (yard) - trim west row tree limbs", points: 5 },
   { id: "aaa461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (yard) - trim north row tree limbs", points: 4 },
