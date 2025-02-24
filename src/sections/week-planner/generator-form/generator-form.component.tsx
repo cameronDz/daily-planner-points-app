@@ -2,7 +2,7 @@ import classNames from "classnames";
 import { ChangeEvent, useEffect, useState } from "react";
 import { v4 as uuidV4 } from "uuid";
 import { DailyTask, WeekTask } from "../week-planner.types";
-import { DAILY_TASKS_2025_01_27 as DAILY_TASKS, WEEKLY_TASKS_2025_02_17 as WEEKLY_TASKS } from "./generator-form.data";
+import { DAILY_TASKS_2025_01_27 as DAILY_TASKS, WEEKLY_TASKS_2025_02_24 as WEEKLY_TASKS } from "./generator-form.data";
 import "./generator-form.styles.css";
 
 enum StartStatus {
