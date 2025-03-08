@@ -2,7 +2,7 @@ import classNames from "classnames";
 import { ChangeEvent, useEffect, useState } from "react";
 import { v4 as uuidV4 } from "uuid";
 import { DailyTask, WeekTask } from "../week-planner.types";
-import { DAILY_TASKS_2025_01_27 as DAILY_TASKS, WEEKLY_TASKS_2025_02_24 as WEEKLY_TASKS } from "./generator-form.data";
+import { DAILY_TASKS_2025_03_10 as DAILY_TASKS, WEEKLY_TASKS_2025_03_10 as WEEKLY_TASKS } from "./generator-form.data";
 import "./generator-form.styles.css";
 
 enum StartStatus {
@@ -184,7 +184,7 @@ const WeekPlannerGeneratorFormComponent = ({ onClose = () => {} }: WeekPlannerGe
             <div key={task.id}>
               <button onClick={() => handleClickDeleteWeekTask(task.id)}>DEL</button>
               <input
-                className={classNames(!task.name && "invalid-form-input")}
+                className={classNames(!task.name && "invalid-form-input", "weekly-task-name")}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => handleChangeWeekTaskName(task.id, e.target.value)}
                 type="text"
                 value={task.name}

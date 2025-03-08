@@ -29,3 +29,7 @@
 .invalid-form-input {
     border: 4px red solid;
 }
+
+.weekly-task-name {
+    width: 300px;
+}
