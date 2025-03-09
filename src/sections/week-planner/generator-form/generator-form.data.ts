@@ -544,14 +544,17 @@ export const WEEKLY_TASKS_2025_03_10 = [
   { id: "6d4382ac-adf3-448a-b8f5-cbf0eefdc924", name: "organize - file-base files", points: 6 },
   { id: "f5c0db6c-90b5-4fe7-9c82-3a10977d5e63", name: "organize - google-drive files", points: 4 },
 
-  { id: "555461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (kitchen) - cabinet lower shelf", points: 2 },
   { id: "4b903b3f-a2c1-4a4f-972a-1d6cd3578072", name: "house (yard) - schedule surveyor", points: 4 },
+  { id: "555461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (yard) - rm pool moss patch", points: 4 },
 
   { id: "5440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "house (yard) - trim west row tree limbs", points: 5 },
   { id: "aaa461cd-b791-4eec-99ae-47f440a1b8a8", name: "house (yard) - trim north row tree limbs", points: 4 },
 
   { id: "12412415-3333-4eec-99ae-47f440a1b8a8", name: "house (yard) - drop 5 west side trees", points: 4 },
   { id: "15125152-b791-4eec-99ae-47f440a1b8a8", name: "house (yard) - drop 2 north side trees", points: 4 },
+
+  { id: "15235123-a2c1-4a4f-972a-1d6cd3578072", name: "house (yard) - construct fire pit", points: 4 },
+  { id: "53112359-b791-4eec-99ae-47f440a1b8a8", name: "house (yard) - burn wood piles", points: 4 },
 
   { id: "16134754-b791-4eec-99ae-47f440a1b8a8", name: "read - count zero book (finish)", points: 3 },
   { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - code complete chapter 25", points: 2 },
@@ -561,4 +564,7 @@ export const WEEKLY_TASKS_2025_03_10 = [
 
   { id: "1440ae67-af57-495d-88c6-52a2e1a4b6c5", name: "biz - video game session w/log (2hr)", points: 4 },
   { id: "13616316-b791-4eec-99ae-47f440a1b8a8", name: "biz - pop-culture website brain session (2hr)", points: 4 },
+
+  { id: "52525252-4555-4eec-99ae-47f440a1b8a8", name: "house (kitchen) - cabinet lower shelf", points: 2 },
+  { id: "92941324-4555-4eec-99ae-47f440a1b8a8", name: "house (general) - clocks (2)", points: 2 },
 ];
