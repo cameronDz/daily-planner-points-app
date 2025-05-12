@@ -614,3 +614,26 @@ export const WEEKLY_TASKS_2025_05_05 = [
   { id: "83bb0a1c-6780-4797-bfe0-3496565fe306", name: "finance - jeep registration facts", points: 4 },
   { id: "42354523-6780-4797-bfe0-3496565fe306", name: "finance - subaru sell", points: 4 },
 ];
+
+export const WEEKLY_TASKS_2025_05_12 = [
+  { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "master bath - install sink", points: 4 },
+  { id: "61632623-b791-4eec-99ae-47f440a1b8a8", name: "master bath - install lighing", points: 4 },
+
+  { id: "12321231-076e-4c03-a244-2287643fcab2", name: "master bath - install trim", points: 3 },
+  { id: "51325125-3a6b-4ba9-8d2d-eccbcf1be370", name: "master bath - install toilet", points: 3 },
+
+  { id: "88888888-3333-4eec-99ae-47f440a1b8a8", name: "master bath - purchase shower door", points: 2 },
+  { id: "92941324-4555-4eec-99ae-47f440a1b8a8", name: "house (general) - clocks (2)", points: 2 },
+
+  { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - code complete chapter 31", points: 3 },
+  { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - code complete chapter 32", points: 3 },
+
+  { id: "53112359-b791-4eec-99ae-47f440a1b8a8", name: "read - robber barons (finish)", points: 3 },
+  { id: "67272214-b791-4eec-99ae-47f440a1b8a8", name: "read - academic article", points: 4 },
+
+  { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "finance - purchase laptop", points: 4 },
+  { id: "82941324-4555-4eec-99ae-47f440a1b8a8", name: "biz - setup home serve", points: 5 },
+
+  { id: "83bb0a1c-6780-4797-bfe0-3496565fe306", name: "finance - jeep registration facts", points: 4 },
+  { id: "42354523-6780-4797-bfe0-3496565fe306", name: "finance - subaru sell", points: 4 },
+];
