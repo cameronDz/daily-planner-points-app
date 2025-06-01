@@ -146,6 +146,32 @@ export const DAILY_TASKS_2025_05_05 = [
   { id: "2cb9377b-0a7f-4c29-a46b-271fdf3b19da", name: "in-bed by 3AM", points: 3 },
 ];
 
+export const DAILY_TASKS_2025_06_02 = [
+  { id: "e4d375a3-df4e-466d-979f-0a492d56d0ee", name: "morning - cold shower", points: 2 },
+  { id: "f48ecaba-a29e-449e-b905-3e4274a7dc87", name: "morning - brush teeth", points: 2 },
+
+  { id: "0bc49d21-f9e4-4010-9dc7-b7206080c633", name: "morning - protien shake", points: 2 },
+  { id: "5095b9e5-d47f-4a80-ba08-dfd0905858fb", name: "water intake (1 nalgene)", points: 2 },
+
+  { id: "303c4f5a-1e18-480e-bb94-66c564c2c4fc", name: "jog session (morning - before 10am)", points: 6 },
+  { id: "403c4f5a-1e18-480e-bb94-66c564c2c4fc", name: "jog session (+40min)", points: 6 },
+
+  { id: "44444f5a-1e18-480e-bb94-66c564c2c4fc", name: "exercise session", points: 5 },
+  { id: "203c4f5a-1e18-480e-bb94-66c564c2c4fc", name: "stretch session", points: 5 },
+
+  { id: "eaa2f47b-75ce-4a4d-bbc6-bd010e05651b", name: "house work session", points: 4 },
+  { id: "eaa2f47b-5555-4a4d-bbc6-bd010e05651b", name: "yard work session", points: 2 },
+
+  { id: "12351235-df48-4362-92d2-09cedf697595", name: "reading session (work-lunch)", points: 2 },
+  { id: "da2f6a38-df48-4362-92d2-09cedf697595", name: "reading session (general)", points: 2 },
+
+  { id: "5bae23a6-1c37-4baa-9148-e7fc3cfb258b", name: "journal entry", points: 2 },
+  { id: "5bae23a6-2222-4baa-9148-e7fc3cfb258b", name: "story writing session", points: 2 },
+
+  { id: "fc563da3-4966-4847-bed9-a3aca69f727d", name: "night - brush teeth", points: 2 },
+  { id: "2cb9377b-0a7f-4c29-a46b-271fdf3b19da", name: "night - bed by 3AM", points: 2 },
+];
+
 export const WEEKLY_TASKS_2024_12_30 = [
   { id: "508f4898-974a-4585-861c-d5f21cee5234", name: "HR incentive-fit purchases", points: 5 },
   { id: "7368fcaf-c436-4523-b866-9d539bad519c", name: "HR incentive-fit apply", points: 3 },
@@ -635,5 +661,63 @@ export const WEEKLY_TASKS_2025_05_12 = [
   { id: "82941324-4555-4eec-99ae-47f440a1b8a8", name: "biz - setup home serve", points: 5 },
 
   { id: "83bb0a1c-6780-4797-bfe0-3496565fe306", name: "finance - jeep registration facts", points: 4 },
+  { id: "42354523-6780-4797-bfe0-3496565fe306", name: "finance - subaru sell", points: 4 },
+];
+
+export const WEEKLY_TASKS_2025_05_26 = [
+  { id: "61632623-b791-4eec-99ae-47f440a1b8a8", name: "master bath - install lighing", points: 4 },
+  { id: "88888888-3333-4eec-99ae-47f440a1b8a8", name: "master bath - purchase shower door", points: 2 },
+
+  { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "master bath - putty outlets", points: 4 },
+  { id: "11b20edd-076e-4c03-a244-2287643fcab2", name: "master bath - repaint outlets", points: 4 },
+
+  { id: "12321231-076e-4c03-a244-2287643fcab2", name: "master bath - install trim", points: 3 },
+  { id: "51325125-3a6b-4ba9-8d2d-eccbcf1be370", name: "master bath - install toilet", points: 3 },
+
+  { id: "92941324-4555-4eec-99ae-47f440a1b8a8", name: "house (general) - clocks (2)", points: 2 },
+  { id: "92941324-4555-4eec-99ae-47f440a1b8a8", name: "house (general) - painting (1)", points: 2 },
+
+  { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - code complete chapter 31", points: 3 },
+  { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - code complete chapter 32", points: 3 },
+
+  { id: "53112359-b791-4eec-99ae-47f440a1b8a8", name: "read - robber barons (finish)", points: 3 },
+  { id: "67272214-b791-4eec-99ae-47f440a1b8a8", name: "read - academic article", points: 4 },
+
+  { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "finance - purchase laptop", points: 4 },
+  { id: "82941324-4555-4eec-99ae-47f440a1b8a8", name: "biz - setup home serve", points: 5 },
+
+  { id: "831b0a1c-6780-4797-bfe0-3496565fe306", name: "finance - jeep registration facts", points: 4 },
+  { id: "83bb0a1c-6780-4797-bfe0-3496565fe306", name: "finance - jeep registration appt", points: 4 },
+
+  { id: "42154523-6780-4797-bfe0-3496565fe306", name: "finance - subaru start", points: 4 },
+  { id: "42354523-6780-4797-bfe0-3496565fe306", name: "finance - subaru sell", points: 4 },
+];
+
+export const WEEKLY_TASKS_2025_06_02 = [
+  { id: "61632623-b791-4eec-99ae-47f440a1b8a8", name: "master bath - install lighing", points: 4 },
+  { id: "88888888-3333-4eec-99ae-47f440a1b8a8", name: "master bath - purchase shower door", points: 2 },
+
+  { id: "bbb20edd-076e-4c03-a244-2287643fcab2", name: "", points: 4 },
+  { id: "11b20edd-076e-4c03-a244-2287643fcab2", name: "", points: 4 },
+
+  { id: "12321231-076e-4c03-a244-2287643fcab2", name: "master bath - install trim", points: 3 },
+  { id: "51325125-3a6b-4ba9-8d2d-eccbcf1be370", name: "master bath - install toilet", points: 3 },
+
+  { id: "92941324-3333-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+  { id: "92941324-4555-4eec-99ae-47f440a1b8a8", name: "", points: 2 },
+
+  { id: "b55461cd-3333-4eec-99ae-47f440a1b8a8", name: "", points: 3 },
+  { id: "b55461cd-b791-4eec-99ae-47f440a1b8a8", name: "read - code complete chapter 32", points: 3 },
+
+  { id: "53112359-b791-4eec-99ae-47f440a1b8a8", name: "read - robber barons (finish)", points: 3 },
+  { id: "67272214-b791-4eec-99ae-47f440a1b8a8", name: "read - academic article", points: 4 },
+
+  { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "", points: 4 },
+  { id: "82941324-4555-4eec-99ae-47f440a1b8a8", name: "biz - setup home serve", points: 5 },
+
+  { id: "831b0a1c-2222-4797-bfe0-3496565fe306", name: "finance - jeep registration facts", points: 4 },
+  { id: "83bb0a1c-6780-4797-bfe0-3496565fe306", name: "finance - jeep registration appt", points: 4 },
+
+  { id: "42154523-6780-4797-bfe0-3496565fe306", name: "finance - subaru start", points: 4 },
   { id: "42354523-6780-4797-bfe0-3496565fe306", name: "finance - subaru sell", points: 4 },
 ];
