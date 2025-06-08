@@ -756,7 +756,10 @@ export const WEEKLY_TASKS_2025_06_09 = [
   { id: "fe0ca6e3-dcd4-46cd-819b-ed1420ad9875", name: "biz - laptop setup", points: 4 },
   { id: "82941324-4555-4eec-99ae-47f440a1b8a8", name: "biz - setup home serve", points: 5 },
 
-  { id: "1b0a1c-2222-4797-bfe0-3496565fe306", name: "finance - jeep registration facts", points: 4 },
+  { id: "2b154523-6780-4797-bfe0-3496565fe306", name: "finance - update amex card", points: 4 },
+  { id: "2a354523-6780-4797-bfe0-3496565fe306", name: "finance - apply (food) card", points: 4 },
+
+  { id: "1b0a1c23-2222-4797-bfe0-3496565fe306", name: "finance - jeep registration facts", points: 4 },
   { id: "1cbb0a1c-6780-4797-bfe0-3496565fe306", name: "finance - jeep registration appt", points: 4 },
 
   { id: "1b154523-6780-4797-bfe0-3496565fe306", name: "finance - subaru start", points: 4 },
